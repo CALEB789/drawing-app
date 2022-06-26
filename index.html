@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://kit.fontawesome.com/bc7e419adf.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>HTML</title>
+</head>
+<body >
+<div id = "cont">
+     <button id = "brush"><i class="fa fa-paint-brush" aria-hidden="true"></i></button>
+        <button id = "erase"><i class="fa-solid fa-eraser"></i></button>
+    <p>COLOR<input class = "in"id = "color"type = "color"></p>
+    <p>BG COLOR<input class = "in"type = "color"id = "cnvcolor"></p>
+     </div>
+    <span>SIZE</span><input id= "pen" type ="range" value = "5"max="100">
+     </div>
+     <a target = "_blank"id="download" download="myImage.png" href="" onclick="download_img(this);">Download</a>
+
+  <canvas id= "cnv"></canvas>
+   <script src="main.js"></script>
+</body>
+</html>
