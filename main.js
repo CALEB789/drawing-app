@@ -1,4 +1,4 @@
-
+alert("First Change the Background COLOR. If you are going to use one")
   var x, y, currentX, currentY
   const cnv = document.getElementById("cnv")
   var brush = document.getElementById("brush")
