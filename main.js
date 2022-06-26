@@ -21,7 +21,6 @@ alert("First Change the Background COLOR. If you are going to use one")
     ctx.fillStyle = bgcolor.value
     ctx.fillRect(0,0,cnv.width,cnv.height)
     cnv.style.backgroundColor = bgcolor.value
-    document.body.style.backgroundColor = bgcolor.value
   })
   brush.addEventListener("click", (e) => {
     draw = true
