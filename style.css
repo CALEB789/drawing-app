@@ -5,10 +5,18 @@
 }
 body{
   overflow:hidden;
-  background-color: transparent;
+  background-image:linear-gradient(to right,#6a3093,#a044ff);
+  color:#fff;
+}
+a{
+text-decoration:none;
+color:#fff;
 }
 #cnv{
   background-color:#fff;
+  border:3px solid black;
+  transform:translate(-50% -50%);
+
 }
 #color{
   border-radius:30px;
