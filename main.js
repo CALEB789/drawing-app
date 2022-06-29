@@ -12,8 +12,8 @@ alert("First Change the Background COLOR. If you are going to use one")
   let erase_b = false
   let draw = false;
   var ctx = cnv.getContext('2d')
-  cnv.height = window.innerHeight
-  cnv.width = window.innerWidth
+  cnv.height = 350
+  cnv.width = 350
   var prevX = null;
   var prevY = null;
   var size_c = 10
